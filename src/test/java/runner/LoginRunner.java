@@ -8,7 +8,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features="src/test/java/features/Login",
-        glue = "steps"
+        tags = {"@WinAPP"},
+        glue = "steps",
+        plugin = {"pretty","json:target/cucumber/WinApp.json"}
 )
 public class LoginRunner {
 }

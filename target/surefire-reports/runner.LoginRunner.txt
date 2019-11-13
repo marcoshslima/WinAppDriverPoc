@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runner.LoginRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 57.806 sec <<< FAILURE!
+Login With Incorrect username and password(Login)  Time elapsed: 57.25 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expecting:
+ <"Marcos">
+to contain:
+ <"Henrique"> 
+	at steps.Login.theSystemShouldDisplayedTheFollowingMessageMessageError(Login.java:63)
+	at ✽.The system should displayed the following message a(file:src/test/java/features/Login/Login.feature:11)
+

@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-13T22:17:32.658Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4685800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.openWinAppDriver()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login With Incorrect username and password",
+        "description": "",
+        "id": "login;login-with-incorrect-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5072768000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50240711400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I open the paytrue system successfully",
+            "match": {
+              "location": "Login.iOpenThePaytrueSystemSuccessfully()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 291000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Login.teste(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1176607000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill the field Username abcder and PassWord 123456 with incorrect values",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcder",
+                  "offset": 26
+                },
+                {
+                  "val": "123456",
+                  "offset": 46
+                }
+              ],
+              "location": "Login.iFillTheFieldUsernameUsernameAndPassWordPasswordWithIncorrectValues(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 85700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Login.teste(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 568040700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Click on the button Login",
+            "match": {
+              "location": "Login.iClickOnTheButtonLogin()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 96400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Login.teste(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \r\nExpecting:\r\n \u003c\"Marcos\"\u003e\r\nto contain:\r\n \u003c\"Henrique\"\u003e \r\n\tat steps.Login.theSystemShouldDisplayedTheFollowingMessageMessageError(Login.java:63)\r\n\tat ✽.The system should displayed the following message a(file:src/test/java/features/Login/Login.feature:11)\r\n",
+              "duration": 153849500,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "The system should displayed the following message a",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 50
+                }
+              ],
+              "location": "Login.theSystemShouldDisplayedTheFollowingMessageMessageError(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 57900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Login.teste(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WinAPP"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a User\n  I Want To Login\n  At PayTrue System",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login/Login.feature",
+    "tags": []
+  }
+]

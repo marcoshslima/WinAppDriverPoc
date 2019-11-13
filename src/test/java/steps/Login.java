@@ -17,6 +17,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Optional;
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class Login {
 
@@ -58,6 +59,8 @@ public class Login {
 
     @Then("^The system should displayed the following message (.*)$")
     public void theSystemShouldDisplayedTheFollowingMessageMessageError(String message) {
+        String teste = "Marcos";
+        assertThat(teste).contains("Henrique");
     }
 
     @AfterStep

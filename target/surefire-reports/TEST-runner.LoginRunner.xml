@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="runner.LoginRunner" time="57.25" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="user.country.format" value="AS"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Marcos Lima\IdeaProjects\WindowsApplicationTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Marcos Lima\IdeaProjects\WindowsApplicationTest"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MARCOS~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Marcos Lima\AppData\Local\Microsoft\WindowsApps;C:\Users\Marcos Lima\AppData\Roaming\npm;C:\Users\Marcos Lima\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Marcos Lima"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Marcos Lima"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\lib\idea_rt.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.3 --debug clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="idea.version2019.1.3" value="true"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Login" name="Login With Incorrect username and password" time="57.25">
+    <failure message="
+Expecting:
+ &lt;&quot;Marcos&quot;&gt;
+to contain:
+ &lt;&quot;Henrique&quot;&gt; " type="java.lang.AssertionError">java.lang.AssertionError: 
+Expecting:
+ &lt;&quot;Marcos&quot;&gt;
+to contain:
+ &lt;&quot;Henrique&quot;&gt; 
+	at steps.Login.theSystemShouldDisplayedTheFollowingMessageMessageError(Login.java:63)
+	at ✽.The system should displayed the following message a(file:src/test/java/features/Login/Login.feature:11)
+</failure>
+    <system-out>Feature: Login
+  As a User
+  I Want To Login
+  At PayTrue System
+
+  @WinAPP
+  Scenario Outline: Login With Incorrect username and password &amp;#27;[90m# src/test/java/features/Login/Login.feature:7&amp;#27;[0m
+    &amp;#27;[36mGiven I open the paytrue system successfully&amp;#27;[0m
+    &amp;#27;[36mAnd I fill the field Username &lt;username&gt; and PassWord &lt;password&gt; with incorrect values&amp;#27;[0m
+    &amp;#27;[36mWhen I Click on the button Login&amp;#27;[0m
+    &amp;#27;[36mThen The system should displayed the following message &lt;messageError&gt;&amp;#27;[0m
+
+    Examples: 
+
+  @WinAPP
+  Scenario Outline: Login With Incorrect username and password                     &amp;#27;[90m# src/test/java/features/Login/Login.feature:14&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI open the paytrue system successfully&amp;#27;[0m                                   &amp;#27;[90m# Login.iOpenThePaytrueSystemSuccessfully()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI fill the field Username &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mabcder&amp;#27;[0m&amp;#27;[32m and PassWord &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m123456&amp;#27;[0m&amp;#27;[32m with incorrect values&amp;#27;[0m &amp;#27;[90m# Login.iFillTheFieldUsernameUsernameAndPassWordPasswordWithIncorrectValues(String,String)&amp;#27;[0m
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI Click on the button Login&amp;#27;[0m                                               &amp;#27;[90m# Login.iClickOnTheButtonLogin()&amp;#27;[0m
+    &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mThe system should displayed the following message &amp;#27;[0m&amp;#27;[31m&amp;#27;[1ma&amp;#27;[0m                       &amp;#27;[90m# Login.theSystemShouldDisplayedTheFollowingMessageMessageError(String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: 
+Expecting:
+ &lt;&quot;Marcos&quot;&gt;
+to contain:
+ &lt;&quot;Henrique&quot;&gt; 
+	at steps.Login.theSystemShouldDisplayedTheFollowingMessageMessageError(Login.java:63)
+	at ?.The system should displayed the following message a(file:src/test/java/features/Login/Login.feature:11)
+&amp;#27;[0m
+</system-out>
+    <system-err>Nov 13, 2019 11:17:35 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+</testsuite>

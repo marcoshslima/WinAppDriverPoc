@@ -3,6 +3,7 @@ Feature: Login
   I Want To Login
   At PayTrue System
 
+  @WinAPP
   Scenario Outline: Login With Incorrect username and password
     Given I open the paytrue system successfully
     And I fill the field Username <username> and PassWord <password> with incorrect values
@@ -11,4 +12,3 @@ Feature: Login
     Examples:
       | username | password | messageError |
       | abcder   | 123456   | a            |
-      | dsfdsfsd | 3243243  | dfsfdsfdsf   |

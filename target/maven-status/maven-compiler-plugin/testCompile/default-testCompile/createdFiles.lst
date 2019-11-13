@@ -1,1 +1,3 @@
 CalculadoraWindows.class
+steps\Login.class
+runner\LoginRunner.class
